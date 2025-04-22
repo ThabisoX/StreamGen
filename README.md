@@ -3,7 +3,7 @@
 
  # What is StreamGen
 
- StreamGen is a smart command_line program that heplps users figure out what to watch based on thier moods, time and preferences.
+ StreamGen is a smart GUI program that heplps users figure out what to watch based on thier moods, time and preferences.
  Thinking  of it as a mini netflix Brain, but offline and built in python.
 
  it acts like mini streaming expert that 
