@@ -5,11 +5,47 @@ age = input('How old are you? ')
 print(f'Hello {name}, Im happy to help! ')
 
 print(f'{name} how are you feeling today' )
-moods = ['happy', 'Sad', "bored", 'enegetic', 'numb', "angry"]
+moods = ['Happy', 'Sad', "Bored", 'Energetic', 'Numb', "Angry", 'Great',
+        "fantastic", 'Okay', "Alright", "Bad", "Not Good", "Tired", "Sleepy", 'Down'
+        "Low", "Stressed", "Anxious", 'Calm', 'Relaxed', "Excited", "hyped", 
+        "frustrated", "Curious", "Romantic", "Nostalgic","grumpy"
+        ]
 enter_mood = input(f'What is your mood? ')
+process_input = enter_mood.title()
 for mood in moods:
     if mood == enter_mood :
         print("what genre do you feel like Watching? ")
 
-genres = ['']
+genres = ['Action', "Adventure", "Animation", "Biography", "Comedy", "Crime", "Cyberpunk",
+        "Documentary", "Drama", "Epic", "Experimental", "Family", "fantasy",
+        "Film Noir", "Found Footage", "Historical", "Horror", 'Isekai', 'Kids', "Martial Arts"
+        "Mecha", "Melodrama", 'Mockumentary', "Musical", "Mystery", 'NeoNior', 'Philosophical'
+        'Political', "Post Apocalyptic", 'Psychological', 'Romance', "Satire", "School Life",
+        'Science Fiction', "Sports", "Spy", 'Super Hero', 'Super natural', "Surreal", "Survival"
+        "Thriller", "Tragedy", "War", 'Western']
+print(genres)
+enter_genre = input('What genre do you want to watch? ')
+process_input_2 = enter_genre.title()
+for genre in genres:
+    if  genre == enter_genre :
+        print('Which one do you prefer')
 
+print('1. Movie')
+print('2. Series')
+print("3. Documentary")
+
+user_choice = input("Enter number over here: ")
+user_choice_number = int(user_choice)
+
+if user_choice_number == 1:
+    print('How much time do you want to watch')
+elif user_choice_number == 2:
+    print('How much time do you want to watch') 
+elif user_choice_number == 3:
+    print('How much time do you want to watch') 
+else:
+    print('Not an option please try again')
+
+time = input("Time in minute: ")
+
+profile_map = {("Happy", "Action"): "Happy trigger"}
