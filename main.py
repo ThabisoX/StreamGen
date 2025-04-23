@@ -13,7 +13,7 @@ moods = ['Happy', 'Sad', "Bored", 'Energetic', 'Numb', "Angry", 'Great',
 enter_mood = input(f'What is your mood? ')
 process_input = enter_mood.title()
 for mood in moods:
-    if mood == enter_mood :
+    if mood == process_input :
         print("what genre do you feel like Watching? ")
 
 genres = ['Action', "Adventure", "Animation", "Biography", "Comedy", "Crime",
@@ -46,6 +46,1935 @@ elif user_choice_number == 3:
 else:
     print('Not an option please try again')
 
-time = input("Time in minute: ")
+time = int(input("Time in minute (e.g  50 = 30 minutes, 100 = 1Hr , 150 = 1hr30min: "))
 
-profile_map = {("Happy", "Action"): "Happy trigger", ("Happy", "Adventure"): "Joyful Explorer", ("Happy", "Animation"): "Magic Wander", ("Happy", "Biography"): "Happy Listener", ("Happy", "Comedy"): "LOL", ("Happy", "Crime"): "Smiley Sleuth", ("Happy", "Documentary"): "Sunny Reels", ("Happy", "Drama"): "Golden Echoes",("Happy", "Epic"): "Joybound Legend", ("Happy", "Family"): "Heart & Harmony",("Happy", "Fantasy"): "WhimsyRealm", ("Happy", "Historical"): "Timeless Smiles",("Happy", "Horror"): "Giggles In The Dark!", ("Happy", "Kids"): "Giggle galaxy", ("Happy", "Martial Arts"): "Joyful Fury", ("Happy", "Melodrama"): "Tears of joy", ("Happy", "Musical"): "Melody Of Smiles", ("Happy", "Mystery"): "The Cheerful Clue", ("Happy", "Philosophical"): "Joyful Reflections", ("Happy", "Political"): "Optimistic Agenda",("Happy", "Post Apocalyptic"): "Sunshine after Ashes", ("Happy", "Psychological"): "Mindful Joy", ("Happy", "Romance"): "Heartful Harmony", ("Happy", "Sattire"): "Smiles & Sarcasm", ("Happy", "Science fiction"): "Stellar smiles", ("Happy", "Sports"): "Victory Vibes", ("Happy", "Spy"): "Secret Smiles", ("Happy", "Super Hero"): "Radiant Hero", ("Happy", "Super Natural"): "Magical bliss", ("Happy", "Surreal"): "Dreamlit Delight", ("Happy", "Survival"): "Survival's Smile", ("Happy", "Thriller"): "Thrills and Chills", ("Happy", "Tragedy"): "Tear Of Hope", ("Happy", "War"): "Victory In Peace", ("Happy", "Western"): "Sunny Trails", }
+if time == 50:
+    pass
+elif time == 100:
+    pass
+elif time == 150:
+    pass
+
+def decide_profile(process_input, process_input_2 ):
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+    
+    elif process_input == "Sad":
+        if process_input_2 == "Action":
+            return "Echoes of Valor"
+        elif process_input_2 == "Adventure":
+            return "Wanderer's Lament"
+        elif process_input_2 == "Animation":
+            return "Bittersweet Frames"
+        elif process_input_2 == "Biography":
+            return "Echoes of a life"
+        elif process_input_2 == "Comedy":
+            return "Tears & chuckles"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+    
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+        if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+        if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+    if process_input == "Happy":
+        if process_input_2 == "Action":
+            return "Happy Trigger"
+        elif process_input_2 == "Adventure":
+            return "Joyful Wanderer"
+        elif process_input_2 == "Animation":
+            return "Happy Pixel"
+        elif process_input_2 == "Biography":
+            return "Truly Happy"
+        elif process_input_2 == "Comedy":
+            return "HAA HAA HAA Jokes on you"
+        elif process_input_2 == "Crime":
+            return "Smiley Sleuth"
+        elif process_input_2 == "Documentary":
+            return "Sunny Reels"
+        elif process_input_2 == "Drama":
+            return "Golden Echoes"
+        elif process_input_2 == "Epic":
+            return "JoyBound Legends"
+        elif process_input_2 == "Family":
+            return "Heart & Harmony"
+        elif process_input_2 == "Fantasy":
+            return "WhimsyRealms"
+        elif process_input_2 == "Historical":
+            return "Timeless Smiles"
+        elif process_input_2 == "Horror":
+            return "Giggles in the Dark"
+        elif process_input_2 == "Kids":
+            return "Giggle Galaxy"
+        elif process_input_2 == "Martial Arts":
+            return "joyful Fury"
+        elif process_input_2 == "Melodrama":
+            return "Tears of joy"
+        elif process_input_2 == "Musical":
+            return "Melody of smiles"
+        elif process_input_2 == "Mystery":
+            return "The Cheerful Clue"
+        elif process_input_2 == "Philosophical":
+            return "Joyful Reflections"
+        elif process_input_2 == "Political":
+            return "Optimistic Agenda"
+        elif process_input_2 == "Post Apocalyptic":
+            return "Sunshine After Ashes"
+        elif process_input_2 == "Psychological":
+            return "Mindful Joy"
+        elif process_input_2 == "Romance":
+            return "HeartFelt Harmony"
+        elif process_input_2 == "Satire":
+            return "Smile & Sarcasm"
+        elif process_input_2 == "Science Fiction":
+            return "Stellar Smiles"
+        elif process_input_2 == "Sports":
+            return "Victory Vibes"
+        elif process_input_2 == "Spy":
+            return "Secret Smiles"
+        elif process_input_2 == "Superhero":
+            return "Radiant Hero"
+        elif process_input_2 == "Super Natural":
+            return "Magical Bliss"
+        elif process_input_2 == "Surreal":
+            return "Dreamlit Delight"
+        elif process_input_2 == "Survival":
+            return "Survivors Smile"
+        elif process_input_2 == "Thriller":
+            return "Thrills & Chills"
+        elif process_input_2 == "Tragedy":
+            return "Tears Of Hope"
+        elif process_input_2 == "War":
+            return "Sunny Trails"
+        
+        
+        
+        
+        
+        
+        
+profile = decide_profile(process_input, process_input_2)
+print(f"OW wow; {profile}!")
