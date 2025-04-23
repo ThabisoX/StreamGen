@@ -196,7 +196,7 @@ def decide_profile(process_input, process_input_2 ):
         elif process_input_2 == "War":
             return "Sunny Trails"
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -267,7 +267,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -338,7 +338,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
     
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -409,7 +409,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -480,7 +480,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -551,7 +551,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -622,7 +622,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -693,7 +693,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -764,7 +764,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -835,7 +835,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -906,7 +906,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -977,7 +977,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -1048,7 +1048,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -1119,7 +1119,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -1190,7 +1190,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -1261,7 +1261,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -1332,7 +1332,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -1403,7 +1403,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -1474,7 +1474,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -1545,7 +1545,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -1616,7 +1616,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-        if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -1687,7 +1687,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -1758,7 +1758,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-        if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -1829,7 +1829,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -1900,7 +1900,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    if process_input == "Happy":
+    elif process_input == "Happy":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
