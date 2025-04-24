@@ -138,77 +138,77 @@ def decide_profile(process_input, process_input_2 ):
         elif process_input_2 == "Comedy":
             return "Tears & chuckles"
         elif process_input_2 == "Crime":
-            return "Smiley Sleuth"
+            return "Smiley Broken Justice"
         elif process_input_2 == "Documentary":
-            return "Sunny Reels"
+            return "Sunny Tears In Tears"
         elif process_input_2 == "Drama":
-            return "Golden Echoes"
+            return "Golden Shadows of Heart"
         elif process_input_2 == "Epic":
-            return "JoyBound Legends"
+            return "Echoes Of Glory"
         elif process_input_2 == "Family":
-            return "Heart & Harmony"
+            return "Fractured bonds"
         elif process_input_2 == "Fantasy":
-            return "WhimsyRealms"
+            return "Tears Of The Realm"
         elif process_input_2 == "Historical":
-            return "Timeless Smiles"
+            return "Smiles Eras"
         elif process_input_2 == "Horror":
-            return "Giggles in the Dark"
+            return "Whispers Of the Forgotten"
         elif process_input_2 == "Kids":
-            return "Giggle Galaxy"
+            return "Lost lullabies"
         elif process_input_2 == "Martial Arts":
-            return "joyful Fury"
+            return "fallen Warrior"
         elif process_input_2 == "Melodrama":
-            return "Tears of joy"
+            return "Crimson Tears"
         elif process_input_2 == "Musical":
-            return "Melody of smiles"
+            return "Dissonant hearts"
         elif process_input_2 == "Mystery":
-            return "The Cheerful Clue"
+            return "Echoes of the Unsolved"
         elif process_input_2 == "Philosophical":
-            return "Joyful Reflections"
+            return "Sorrowful Truths"
         elif process_input_2 == "Political":
-            return "Optimistic Agenda"
+            return "Shattered Ideals"
         elif process_input_2 == "Post Apocalyptic":
-            return "Sunshine After Ashes"
+            return "Echoes Of a Dying World"
         elif process_input_2 == "Psychological":
-            return "Mindful Joy"
+            return "Fractured Minds"
         elif process_input_2 == "Romance":
-            return "HeartFelt Harmony"
+            return "Love's Last Breath"
         elif process_input_2 == "Satire":
-            return "Smile & Sarcasm"
+            return "Cynical smiles"
         elif process_input_2 == "Science Fiction":
-            return "Stellar Smiles"
+            return "Fading Stars"
         elif process_input_2 == "Sports":
-            return "Victory Vibes"
+            return "Fallen Champions"
         elif process_input_2 == "Spy":
-            return "Secret Smiles"
+            return "Shadows O Betrayal"
         elif process_input_2 == "Superhero":
-            return "Radiant Hero"
+            return "Broken Capes"
         elif process_input_2 == "Super Natural":
-            return "Magical Bliss"
+            return "Wraiths Of The Past"
         elif process_input_2 == "Surreal":
-            return "Dreamlit Delight"
+            return "Shatterd Realms"
         elif process_input_2 == "Survival":
-            return "Survivors Smile"
+            return "Lonely Horizon"
         elif process_input_2 == "Thriller":
-            return "Thrills & Chills"
+            return "The Last Breath"
         elif process_input_2 == "Tragedy":
-            return "Tears Of Hope"
+            return "Shattered Dreams"
         elif process_input_2 == "War":
-            return "Sunny Trails"
+            return "Echoes of the Fallen"
         
-    elif process_input == "Happy":
+    elif process_input == "Bored":
         if process_input_2 == "Action":
-            return "Happy Trigger"
+            return "Stale Fury"
         elif process_input_2 == "Adventure":
-            return "Joyful Wanderer"
+            return "Wanderer In Stillness"
         elif process_input_2 == "Animation":
-            return "Happy Pixel"
+            return "Frozen Frames"
         elif process_input_2 == "Biography":
-            return "Truly Happy"
+            return "Tales Untold"
         elif process_input_2 == "Comedy":
-            return "HAA HAA HAA Jokes on you"
+            return "Yawns & Yucks"
         elif process_input_2 == "Crime":
-            return "Smiley Sleuth"
+            return "Crime Of Routine"
         elif process_input_2 == "Documentary":
             return "Sunny Reels"
         elif process_input_2 == "Drama":
@@ -267,7 +267,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    elif process_input == "Happy":
+    elif process_input == "Energetic":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -338,7 +338,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
     
-    elif process_input == "Happy":
+    elif process_input == "Numb":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -409,7 +409,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    elif process_input == "Happy":
+    elif process_input == "Angry":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
@@ -480,7 +480,7 @@ def decide_profile(process_input, process_input_2 ):
             return "Sunny Trails"
         
         
-    elif process_input == "Happy":
+    elif process_input == "Great":
         if process_input_2 == "Action":
             return "Happy Trigger"
         elif process_input_2 == "Adventure":
